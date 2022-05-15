@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .center {
+          position: absolute;
+          margin: auto;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          width: 100px;
+          height: 100px;
+          background-color: transparent;
+          border-radius:50%;
+          box-shadow: 25px 10px 0px 0px blue;
+        }
+      
+      </style>
+      <div class="center"></div>
+      <style>
+  .center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    box-shadow: 25px 10px 10px 10px green;
+  }
+
+</style>
+<div class="center"></div>
+<style>
+    .center {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      border-radius: 50%;
+      box-shadow: 25px 10px 0px 10px green;
+    }
+  
+  </style>
+  <div class="center"></div>
+  <style>
+    .heart {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: pink;
+      height: 50px;
+      width: 50px;
+      transform: rotate(-45deg);
+    }
+    .heart::after {
+      background-color: pink;
+      content: "";
+      border-radius: 50%;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: 0px;
+      left: 25px;
+    }
+    .heart::before {
+      content: "";
+      background-color: pink;
+      border-radius: 50%;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: -25px;
+      left: 0px;
+    }
+  </style>
+  <div class="heart"></div>
+  <style>
+    div {
+      height: 40px;
+      width: 70%;
+      background: black;
+      margin: 50px auto;
+      border-radius: 5px;
+    }
+  
+    #rect {
+  animation-name:rainbow;
+  animation-duration:4s;}
+  @keyframes rainbow{
+    0%{
+  background-color: blue;
+  }
+  50%{
+    background-color: green;
+  }
+  100%{
+  background-color: yellow;
+  }
+    }
+  
+  
+  
+  
+  </style>
+  <div id="rect"></div>
+  <style>
+    div {
+      height: 40px;
+      width: 70%;
+      background: black;
+      margin: 50px auto;
+      border-radius: 5px;
+      position: relative;
+    }
+  
+    #rect {
+      animation-name: rainbow;
+      animation-duration: 4s;
+    }
+  
+    @keyframes rainbow {
+      0% {
+        background-color: blue;
+        left: 0px;
+  
+      }
+      50% {
+        background-color: green;
+        left: 25px;
+  
+      }
+      100% {
+        background-color: yellow;
+        left: -25px;
+  
+      }
+    }
+  </style>
+  
+  <div id="rect"></div>
+  <style>
+    div {
+      height: 40px;
+      width: 70%;
+      background: black;
+      margin: 50px auto;
+      border-radius: 5px;
+      position: relative;
+    }
+  
+    #rect {
+      animation-name: rainbow;
+      animation-duration: 4s;
+    }
+  
+    @keyframes rainbow {
+      0% {
+        background-color: blue;
+        left: 0px;
+  
+      }
+      50% {
+        background-color: green;
+        left: 25px;
+  
+      }
+      100% {
+        background-color: yellow;
+        left: -25px;
+  
+      }
+    }
+  </style>
+  
+  <div id="rect"></div>
+  <style>
+
+    #ball {
+      width: 70px;
+      height: 70px;
+      margin: 50px auto;
+      position: fixed;
+      left: 20%;
+      border-radius: 50%;
+      background: linear-gradient(
+        35deg,
+        #ccffff,
+        #ffcccc
+      );
+      animation-name: fade;
+      animation-duration: 3s;
+    }
+  
+    @keyframes fade {
+      50% {
+        opacity: 0.1;
+  
+      }
+    }
+  
+  </style>
+  
+  <div id="ball"></div>
+</body>
+</html>

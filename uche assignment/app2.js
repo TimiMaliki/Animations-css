@@ -25,6 +25,6 @@ str += newStr[i] ;
    //Third assignment on string write a program to get the last length of a string
 
    var firstName ="OluwaTimiLehin";
-    lastLetterOfFirstName = firstName.length -1;
-     console.log(lastLetterOfFirstName)
+    lastLetterOfFirstName = firstName[firstName.length -1];
+     console.log([lastLetterOfFirstName])
 
